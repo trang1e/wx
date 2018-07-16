@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script type="text/javascript" src="page.js"></script>
+  <script type="text/javascript">
+    function getValue(){
+      var a=document.getElementById("ipt").value;
+      return a;
+    }
+  </script>
+  <style type="text/css">
+    body{
+      margin:0px;
+      padding:0px;
+    }
+    #idImg {
+      margin:0px auto;
+      color:red;
+      width: 50%;
+
+    }
+    img{
+      height:250px;
+    }
+    #ino{
+      float: left;
+    }
+
+  </style>
+</head>
+<body onload="goPage(1,1)">
+<table id="idImg" width="100%">
+  <tr>
+    <td><img src="src/img/01.jpg"></td>
+  </tr>
+  <tr>
+    <td><img src="src/img/02.jpg"></td>
+  </tr>
+  <tr>
+    <td><img src="src/img/03.jpg"></td>
+  </tr>
+  <tr>
+    <td><img src="src/img/04.jpg"></td>
+  </tr>
+  <tr>
+    <td><img src="src/img/05.jpg"></td>
+  </tr>
+  <tr>
+    <td><img src="src/img/06.jpg"></td>
+  </tr>
+  <tr>
+    <td><img src="src/img/07.jpg"></td>
+  </tr>
+  <tr>
+    <td><img src="src/img/08.jpg"></td>
+  </tr>
+  <tr>
+    <td><img src="src/img/09.jpg"></td>
+  </tr>
+  <tr>
+    <td><img src="src/img/10.jpg"></td>
+  </tr>
+</table>
+<table width="70%">
+  <tr>
+    <td><div id="button" name="button" ></div></td>
+    <td><form id="ino" ><input id="ipt" type="text" name="finput" value="" style="width: 50px">
+
+    </form>
+      <button value="submit" onclick="goPage(getValue(),1)">转到</button>
+
+    </td>
+  </tr>
+</table>
+</body>
+</html>
