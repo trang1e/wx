@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chatroom</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="chat-box">
+    <div class="chat-header">
+        <div class="button-box">
+            <input type="button" class="log-out" value="LOGOUT">
+        </div>
+    </div>
+    <div class="chat-body">
+        <div class="chat-body-left">
+            <div class="chat-content"></div>
+            <div class="chat-edit">
+                <input type="text" class="edit-box" placeholder="Please Type your Message" maxlength="15">
+                <input type="button" class="edit-button" value="SEND">
+            </div>
+    </div>
+        <div class="chat-body-right">
+            <div class="online-count">
+                Online:0
+            </div>
+            <div class="user-name">
+                username
+            </div>
+            <img class="user-img" />
+        </div>
+    </div>
+</div>
+</body>
+<script src="socket.io.js"></script>
+<script src="index.js"></script>
+</html>
