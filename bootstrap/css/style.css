@@ -1,0 +1,38 @@
+body {
+    padding-top: 50px;
+}
+.center{
+    padding: 50px;
+}
+img{
+    width: 100%;
+
+
+}
+
+ .navbar-inverse input[type="text"] {
+        background: #313131;
+        border: none;
+        color: #999;
+}
+
+.navbar-inverse .navbar-form {
+    position: relative;
+}
+
+.navbar-inverse button[type="submit"]{
+    position: absolute;
+    top: 15%;
+    right: 20px;
+    background: none;
+    border: none;
+}
+
+.navbar-inverse .glyhicon {
+    color: #999;
+}
+
+
+
+
+
